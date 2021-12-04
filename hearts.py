@@ -1,6 +1,5 @@
 num = int(input('Please enter a number: '))
 
-heart_char = '♥'
+hearts = ['♥' for i in range(num)]
 
-for i in range(num):
-    print(heart_char + ' ', end='')
+print(*hearts, sep=' ')
