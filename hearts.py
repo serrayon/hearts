@@ -1,5 +1,7 @@
 num = int(input('Please enter a number: '))
 
 hearts = ['♥' for i in range(num)]
-
-print(*hearts, sep=' ')
+#the * operator works as unpacking 
+# * explode operator 
+#print(*hearts, sep=' ')
+print(' '.join(hearts))
